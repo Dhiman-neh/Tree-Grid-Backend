@@ -1,0 +1,305 @@
+[
+  {
+    "headerData": [
+      {
+        "id": "taskID",
+        "name": "Task ID",
+        "datatype": "STRING",
+        "width": "100",
+        "textAlign": "LEFT",
+        "bgcolor": "#092209ff",
+        "color": "#79183cff",
+        "font": "10",
+        "textwrap": true,
+        "freeze": "Left"
+      },
+      {
+        "id": "taskName",
+        "name": "Task Name",
+        "datatype": "STRING",
+        "width": "300",
+        "textAlign": "LEFT",
+        "bgcolor": "#092209ff",
+        "color": "#79183cff",
+        "font": "10",
+        "textwrap": true
+      },
+      {
+        "id": "startDate",
+        "name": "Start Date",
+        "datatype": "DATE",
+        "width": "200",
+        "textAlign": "LEFT",
+        "bgcolor": "#092209ff",
+        "color": "#79183cff",
+        "font": "10",
+        "textwrap": true
+      },
+      {
+        "id": "endDate",
+        "name": "End Date",
+        "datatype": "DATE",
+        "width": "200",
+        "textAlign": "LEFT",
+        "bgcolor": "#092209ff",
+        "color": "#79183cff",
+        "font": "10",
+        "textwrap": true
+      },
+      {
+        "id": "duration",
+        "name": "Duration",
+        "datatype": "NUM",
+        "width": "150",
+        "textAlign": "LEFT",
+        "bgcolor": "#092209ff",
+        "color": "#79183cff",
+        "font": "10",
+        "textwrap": true
+      },
+      {
+        "id": "progress",
+        "name": "Progress",
+        "datatype": "NUM",
+        "width": "150",
+        "textAlign": "LEFT",
+        "bgcolor": "#092209ff",
+        "color": "#79183cff",
+        "font": "10",
+        "textwrap": true
+      },
+      {
+        "id": "priority",
+        "name": "Priority",
+        "datatype": "NUM",
+        "width": "100",
+        "textAlign": "LEFT",
+        "bgcolor": "#092209ff",
+        "color": "#79183cff",
+        "font": "10",
+        "textwrap": true
+      },
+      {
+        "id": "designation",
+        "name": "Designation",
+        "datatype": "STRING",
+        "width": "300",
+        "textAlign": "LEFT",
+        "bgcolor": "#092209ff",
+        "color": "#79183cff",
+        "font": "10",
+        "textwrap": true
+      },
+      {
+        "id": "employeeID",
+        "name": "EmployeeID",
+        "datatype": "STRING",
+        "width": "200",
+        "textAlign": "LEFT",
+        "bgcolor": "#092209ff",
+        "color": "#79183cff",
+        "font": "10",
+        "textwrap": true
+      },
+      {
+        "id": "approved",
+        "name": "Approved",
+        "datatype": "BOOLEAN",
+        "width": "150",
+        "textAlign": "LEFT",
+        "bgcolor": "#092209ff",
+        "color": "#79183cff",
+        "font": "10",
+        "textwrap": true
+      }
+    ],
+    "rowsData": [
+      {
+        "taskID": 1,
+        "taskName": "Presidancy",
+        "startDate": "2022-01-07T18:30:00.000Z",
+        "endDate": "2022-01-07T18:30:00.000Z",
+        "progress": 100,
+        "duration": 5,
+        "priority": "Normal",
+        "approved": false,
+        "designation": "Vice President",
+        "employeeID": 1,
+        "subtasks": [
+          {
+            "taskID": 2,
+            "taskName": "Presidancy timeline",
+            "startDate": "2022-01-07T18:30:00.000Z",
+            "endDate": "2022-01-07T18:30:00.000Z",
+            "duration": 5,
+            "progress": 100,
+            "priority": "Normal",
+            "approved": false,
+            "designation": "Chief Executive Officer",
+            "employeeID": 2
+          },
+          {
+            "taskID": 3,
+            "taskName": "Presidancy budget",
+            "startDate": "2022-01-07T18:30:00.000Z",
+            "endDate": "2022-01-07T18:30:00.000Z",
+            "duration": 5,
+            "progress": 100,
+            "priority": "Low",
+            "approved": true,
+            "designation": "Chief Executive Officer",
+            "employeeID": 3
+          },
+          {
+            "taskID": 4,
+            "taskName": "Presidancy Allocate resources",
+            "startDate": "2022-01-07T18:30:00.000Z",
+            "endDate": "2022-01-07T18:30:00.000Z",
+            "duration": 5,
+            "progress": 100,
+            "priority": "Critical",
+            "approved": false,
+            "designation": "Chief Executive Officer",
+            "employeeID": 4
+          },
+          {
+            "taskID": 5,
+            "taskName": "Presidancy Planning",
+            "startDate": "2022-01-07T18:30:00.000Z",
+            "endDate": "2022-01-07T18:30:00.000Z",
+            "duration": 0,
+            "progress": 0,
+            "priority": "Low",
+            "approved": true,
+            "designation": "Chief Executive Officer",
+            "employeeID": 5
+          }
+        ]
+      },
+      {
+        "taskID": 6,
+        "taskName": "Planning",
+        "startDate": "2022-01-07T18:30:00.000Z",
+        "endDate": "2022-01-07T18:30:00.000Z",
+        "progress": 100,
+        "duration": 5,
+        "priority": "Normal",
+        "approved": false,
+        "designation": "Vice President",
+        "employeeID": 1,
+        "subtasks": [
+          {
+            "taskID": 7,
+            "taskName": "Plan timeline",
+            "startDate": "2022-01-07T18:30:00.000Z",
+            "endDate": "2022-01-07T18:30:00.000Z",
+            "duration": 5,
+            "progress": 100,
+            "priority": "Normal",
+            "approved": false,
+            "designation": "Chief Executive Officer",
+            "employeeID": 2
+          },
+          {
+            "taskID": 8,
+            "taskName": "Plan budget",
+            "startDate": "2022-01-07T18:30:00.000Z",
+            "endDate": "2022-01-07T18:30:00.000Z",
+            "duration": 5,
+            "progress": 100,
+            "priority": "Low",
+            "approved": true,
+            "designation": "Chief Executive Officer",
+            "employeeID": 3
+          },
+          {
+            "taskID": 9,
+            "taskName": "Allocate resources",
+            "startDate": "2022-01-07T18:30:00.000Z",
+            "endDate": "2022-01-07T18:30:00.000Z",
+            "duration": 5,
+            "progress": 100,
+            "priority": "Critical",
+            "approved": false,
+            "designation": "Chief Executive Officer",
+            "employeeID": 4
+          },
+          {
+            "taskID": 10,
+            "taskName": "Planning complete",
+            "startDate": "2022-01-07T18:30:00.000Z",
+            "endDate": "2022-01-07T18:30:00.000Z",
+            "duration": 0,
+            "progress": 0,
+            "priority": "Low",
+            "approved": true,
+            "designation": "Chief Executive Officer",
+            "employeeID": 5
+          }
+        ]
+      },
+      {
+        "taskID": 11,
+        "taskName": "Presidancy",
+        "startDate": "2022-01-07T18:30:00.000Z",
+        "endDate": "2022-01-07T18:30:00.000Z",
+        "progress": 100,
+        "duration": 5,
+        "priority": "Normal",
+        "approved": false,
+        "designation": "Vice President",
+        "employeeID": 1,
+        "subtasks": [
+          {
+            "taskID": 12,
+            "taskName": "Presidancy timeline",
+            "startDate": "2022-01-07T18:30:00.000Z",
+            "endDate": "2022-01-07T18:30:00.000Z",
+            "duration": 5,
+            "progress": 100,
+            "priority": "Normal",
+            "approved": false,
+            "designation": "Chief Executive Officer",
+            "employeeID": 2
+          },
+          {
+            "taskID": 13,
+            "taskName": "Presidancy budget",
+            "startDate": "2022-01-07T18:30:00.000Z",
+            "endDate": "2022-01-07T18:30:00.000Z",
+            "duration": 5,
+            "progress": 100,
+            "priority": "Low",
+            "approved": true,
+            "designation": "Chief Executive Officer",
+            "employeeID": 3
+          },
+          {
+            "taskID": 14,
+            "taskName": "Presidancy Allocate resources",
+            "startDate": "2022-01-07T18:30:00.000Z",
+            "endDate": "2022-01-07T18:30:00.000Z",
+            "duration": 5,
+            "progress": 100,
+            "priority": "Critical",
+            "approved": false,
+            "designation": "Chief Executive Officer",
+            "employeeID": 4
+          },
+          {
+            "taskID": 15,
+            "taskName": "Presidancy Planning",
+            "startDate": "2022-01-07T18:30:00.000Z",
+            "endDate": "2022-01-07T18:30:00.000Z",
+            "duration": 0,
+            "progress": 0,
+            "priority": "Low",
+            "approved": true,
+            "designation": "Chief Executive Officer",
+            "employeeID": 5
+          }
+        ]
+      }
+    ]
+  }
+]

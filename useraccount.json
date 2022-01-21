@@ -1,0 +1,226 @@
+[
+  {
+    "taskID": 1,
+    "taskName": "Testing",
+    "startDate": "new Date('02/03/2017')",
+    "endDate": "new Date('02/07/2017')",
+    "progress": 500,
+    "duration": 5,
+    "priority": "Low",
+    "approved": true,
+    "subtasks": [
+      {
+        "taskID": 2,
+        "taskName": "Plan timeline",
+        "startDate": "new Date('02/03/2017')",
+        "endDate": "new Date('02/07/2017')",
+        "duration": 5,
+        "progress": 100,
+        "priority": "Normal",
+        "approved": false
+      },
+      {
+        "taskID": 3,
+        "taskName": "Test budget",
+        "startDate": "02/03/2017",
+        "endDate": "02/07/2017",
+        "duration": 5,
+        "progress": 100,
+        "priority": "Low",
+        "approved": true
+      }
+    ]
+  },
+  {
+    "taskID": 4,
+    "taskName": "Testing",
+    "startDate": "new Date('02/03/2017')",
+    "endDate": "new Date('02/07/2017')",
+    "progress": 500,
+    "duration": 5,
+    "priority": "Low",
+    "approved": true,
+    "subtasks": [
+      {
+        "taskID": 5,
+        "taskName": "Plan timeline",
+        "startDate": "new Date('02/03/2017')",
+        "endDate": "new Date('02/07/2017')",
+        "duration": 5,
+        "progress": 100,
+        "priority": "Normal",
+        "approved": false
+      },
+      {
+        "taskID": 6,
+        "taskName": "Test budget",
+        "startDate": "02/03/2017",
+        "endDate": "02/07/2017",
+        "duration": 5,
+        "progress": 100,
+        "priority": "Low",
+        "approved": true
+      }
+    ]
+  },
+  {
+    "taskID": 7,
+    "taskName": "Testing",
+    "startDate": "new Date('02/03/2017')",
+    "endDate": "new Date('02/07/2017')",
+    "progress": 500,
+    "duration": 5,
+    "priority": "Low",
+    "approved": true,
+    "subtasks": [
+      {
+        "taskID": 8,
+        "taskName": "Plan timeline",
+        "startDate": "new Date('02/03/2017')",
+        "endDate": "new Date('02/07/2017')",
+        "duration": 5,
+        "progress": 100,
+        "priority": "Normal",
+        "approved": false
+      },
+      {
+        "taskID": 9,
+        "taskName": "Test budget",
+        "startDate": "02/03/2017",
+        "endDate": "02/07/2017",
+        "duration": 5,
+        "progress": 100,
+        "priority": "Low",
+        "approved": true
+      }
+    ]
+  },
+  {
+    "taskID": 13,
+    "taskName": "Testing",
+    "startDate": "new Date('02/03/2017')",
+    "endDate": "new Date('02/07/2017')",
+    "progress": 500,
+    "duration": 5,
+    "priority": "Low",
+    "approved": true,
+    "subtasks": [
+      {
+        "taskID": 14,
+        "taskName": "Plan timeline",
+        "startDate": "new Date('02/03/2017')",
+        "endDate": "new Date('02/07/2017')",
+        "duration": 5,
+        "progress": 100,
+        "priority": "Normal",
+        "approved": false
+      },
+      {
+        "taskID": 15,
+        "taskName": "Test budget",
+        "startDate": "02/03/2017",
+        "endDate": "02/07/2017",
+        "duration": 5,
+        "progress": 100,
+        "priority": "Low",
+        "approved": true
+      }
+    ]
+  },
+  {
+    "taskID": 16,
+    "taskName": "Testing",
+    "startDate": "new Date('02/03/2017')",
+    "endDate": "new Date('02/07/2017')",
+    "progress": 500,
+    "duration": 5,
+    "priority": "Low",
+    "approved": true,
+    "subtasks": [
+      {
+        "taskID": 17,
+        "taskName": "Plan timeline",
+        "startDate": "new Date('02/03/2017')",
+        "endDate": "new Date('02/07/2017')",
+        "duration": 1,
+        "progress": 100,
+        "priority": "Normal",
+        "approved": false
+      },
+      {
+        "taskID": 18,
+        "taskName": "Test budget",
+        "startDate": "02/03/2017",
+        "endDate": "02/07/2017",
+        "duration": 5,
+        "progress": 100,
+        "priority": "Low",
+        "approved": true
+      }
+    ]
+  },
+  {
+    "taskID": 19,
+    "taskName": "Testing",
+    "startDate": "new Date('02/03/2017')",
+    "endDate": "new Date('02/07/2017')",
+    "progress": 500,
+    "duration": 5,
+    "priority": "Low",
+    "approved": true,
+    "subtasks": [
+      {
+        "taskID": 20,
+        "taskName": "Plan timeline",
+        "startDate": "new Date('02/03/2017')",
+        "endDate": "new Date('02/07/2017')",
+        "duration": 1,
+        "progress": 800,
+        "priority": "Normal",
+        "approved": false
+      },
+      {
+        "taskID": 21,
+        "taskName": "Test budget",
+        "startDate": "02/03/2017",
+        "endDate": "02/07/2017",
+        "duration": 5,
+        "progress": 100,
+        "priority": "Low",
+        "approved": true
+      }
+    ]
+  },
+  {
+    "taskID": 22,
+    "taskName": "Planning",
+    "startDate": "new Date('02/03/2017')",
+    "endDate": "new Date('02/07/2017')",
+    "progress": 100,
+    "duration": 5,
+    "priority": "Normal",
+    "approved": false,
+    "subtasks": [
+      {
+        "taskID": 23,
+        "taskName": "Plan timeline",
+        "startDate": "new Date('02/03/2017')",
+        "endDate": "new Date('02/07/2017')",
+        "duration": 5,
+        "progress": 100,
+        "priority": "Normal",
+        "approved": false
+      },
+      {
+        "taskID": 24,
+        "taskName": "Plan budget",
+        "startDate": "new Date('02/03/2017')",
+        "endDate": "new Date('02/07/2017')",
+        "duration": 5,
+        "progress": 100,
+        "priority": "Low",
+        "approved": true
+      }
+    ]
+  }
+]
